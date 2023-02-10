@@ -13,6 +13,7 @@
 		5B3BE1042996FBDE0097A707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3BE1022996FBDE0097A707 /* Main.storyboard */; };
 		5B3BE1062996FBDF0097A707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3BE1052996FBDF0097A707 /* Assets.xcassets */; };
 		5B3BE1092996FBDF0097A707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3BE1072996FBDF0097A707 /* LaunchScreen.storyboard */; };
+		5B3BE1172996FD220097A707 /* CustomPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BE1162996FD220097A707 /* CustomPopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5B3BE1052996FBDF0097A707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B3BE1082996FBDF0097A707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B3BE10A2996FBDF0097A707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3BE1162996FD220097A707 /* CustomPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				5B3BE1002996FBDE0097A707 /* ViewController.swift */,
+				5B3BE1162996FD220097A707 /* CustomPopUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3BE1172996FD220097A707 /* CustomPopUpViewController.swift in Sources */,
 				5B3BE1012996FBDE0097A707 /* ViewController.swift in Sources */,
 				5B3BE0FD2996FBDE0097A707 /* AppDelegate.swift in Sources */,
 				5B3BE0FF2996FBDE0097A707 /* SceneDelegate.swift in Sources */,
